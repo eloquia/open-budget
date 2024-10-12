@@ -25,6 +25,26 @@
       bordered
     >
       <q-list>
+        <nav>
+          <q-item
+            clickable
+            tag="a"
+            to="/config"
+          >
+            <q-item-section
+              avatar
+            >
+              <q-icon name="settings" />
+            </q-item-section>
+
+            <q-item-section>
+              <q-item-label>Config</q-item-label>
+            </q-item-section>
+          </q-item>
+        </nav>
+      </q-list>
+
+      <q-list>
         <q-item-label
           header
         >
