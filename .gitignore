@@ -1,0 +1,45 @@
+# - - - - - - - - - - - - - - - - - - - - - - - -
+#                       UI
+# - - - - - - - - - - - - - - - - - - - - - - - -
+node_modules
+
+# Quasar core related directories
+quasar-project/.quasar
+quasar-project/dist
+quasar-project/quasar.config.*.temporary.compiled*
+
+# Cordova related directories and files
+quasar-project/src-cordova/node_modules
+quasar-project/src-cordova/platforms
+quasar-project/src-cordova/plugins
+quasar-project/src-cordova/www
+
+# Capacitor related directories and files
+quasar-project/src-capacitor/www
+quasar-project/src-capacitor/node_modules
+
+# Log files
+quasar-project/npm-debug.log*
+quasar-project/yarn-debug.log*
+quasar-project/yarn-error.log*
+
+# local .env files
+.env.local*
+
+# - - - - - - - - - - - - - - - - - - - - - - - -
+#                       API
+# - - - - - - - - - - - - - - - - - - - - - - - -
+api/node_modules/
+
+# - - - - - - - - - - - - - - - - - - - - - - - -
+#                      Common
+# - - - - - - - - - - - - - - - - - - - - - - - -
+.DS_Store
+.thumbs.db
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
