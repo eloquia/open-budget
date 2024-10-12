@@ -14,3 +14,12 @@ export interface Config {
   }
 
 }
+
+export interface Transaction {
+  id: string
+  date: string
+  companyName: string
+  amount: number
+  account?: string
+  category?: string
+}
