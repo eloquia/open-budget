@@ -8,5 +8,9 @@ export interface Meta {
 }
 
 export interface Config {
-  configSheetName: string;
+  general: {
+    sheetFullPath: string
+    confgSheetName: string
+  }
+
 }
