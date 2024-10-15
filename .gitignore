@@ -27,6 +27,34 @@ quasar-project/yarn-error.log*
 .env.local*
 
 # - - - - - - - - - - - - - - - - - - - - - - - -
+#                    Web (Nuxt)
+# - - - - - - - - - - - - - - - - - - - - - - - -
+# Nuxt dev/build outputs
+web-ui/.output
+web-ui/.data
+web-ui/.nuxt
+web-ui/.nitro
+web-ui/.cache
+web-ui/dist
+
+# Node dependencies
+web-ui/node_modules
+
+# Logs
+web-ui/logs
+web-ui/*.log
+
+# Misc
+web-ui/.DS_Store
+web-ui/.fleet
+web-ui/.idea
+
+# Local env files
+web-ui/.env
+web-ui/.env.*
+web-ui/!.env.example
+
+# - - - - - - - - - - - - - - - - - - - - - - - -
 #                       API
 # - - - - - - - - - - - - - - - - - - - - - - - -
 api/node_modules/
