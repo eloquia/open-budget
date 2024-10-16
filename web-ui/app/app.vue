@@ -44,5 +44,9 @@ const user = useSupabaseUser()
     <UNotifications />
     <UModals />
   </div>
-  <AuthComponent v-else />
+  <div v-else>
+    <NuxtLayout>
+      <AuthComponent />
+    </NuxtLayout>
+  </div>
 </template>

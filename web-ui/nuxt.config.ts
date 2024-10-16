@@ -10,6 +10,8 @@ export default defineNuxtConfig({
     "@nuxtjs/supabase",
   ],
 
+  ssr: true,
+
   ui: {
     safelistColors: ["primary", "red", "orange", "green"],
   },
