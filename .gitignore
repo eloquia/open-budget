@@ -54,6 +54,9 @@ web-ui/.env
 web-ui/.env.*
 web-ui/!.env.example
 
+# VSC
+.history
+
 # - - - - - - - - - - - - - - - - - - - - - - - -
 #                       API
 # - - - - - - - - - - - - - - - - - - - - - - - -
